@@ -1,0 +1,25 @@
+{
+  "name": "catalanpython",
+  "displayName": "CatPy",
+  "description": "Interpret de paraules reservades",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "catpy",
+      "aliases": ["CatPy", "catpy"],
+      "extensions": [".cat"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "catpy",
+      "scopeName": "icrescenti",
+      "path": "./syntaxes/catpy.tmLanguage.json"
+    }]
+  }
+}

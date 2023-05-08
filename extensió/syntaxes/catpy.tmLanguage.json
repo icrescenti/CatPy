@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "CatPy",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.catpy",
+				"match": "\\b(importar|si|no)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.catpy",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.catpy",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "icrescenti"
+}
