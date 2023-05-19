@@ -25,6 +25,7 @@ else:
 		["eliminar", "del"],
 		["destruir", "del"],
 		["del_contrari_si", "elif"],
+		["en_cas_contrari_si", "elif"],
 		["del_contrari", "else"],
 		["excepte", "except"],
 		["Fals", "False"],
@@ -37,7 +38,7 @@ else:
 		["si", "if"],
 		["en_cas_que", "if"],
 		["importa", "import"],
-		["en", "in"],
+		["dins", "in"],
 		["dins_de", "in"],
 		["és", "is"],
 		["lambda", "lambda"],
@@ -63,7 +64,14 @@ else:
 		["amb", "with"],
 		["rendiment", "yield"],
 		["imprimir(", "print("],
-		["fuet(", "print("]
+		["imprimeix(", "print("],
+		["fuet(", "print("],
+		["lallargaria_de", "len"],
+		["allargaria", "len"],
+		["allargada", "len"],
+		["concatena", "append"],
+		["enganxa", "append"],
+		["afegeix", "append"]
 	]
 	try:
 		with open(file_path, 'r') as file:
