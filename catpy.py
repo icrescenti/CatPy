@@ -38,8 +38,9 @@ else:
 		["si ", "if "],
 		["en_cas_que ", "if "],
 		["importa ", "import "],
-		["dins ", "in "],
-		["dins_de ", "in "],
+		[" dins ", " in "],
+		[" dins_de ", " in "],
+		[" en ", " in "],
 		["és ", "is "],
 		["lambda", "lambda"],
 		["Res", "None"],
@@ -81,7 +82,7 @@ else:
 		for ref in referencies:
 			content = content.replace(ref[0], ref[1])
 
-		new_file_path = file_path.replace('.py', '_executable.py')
+		new_file_path = file_path.replace('.cat', '_executable.py')
 		with open(new_file_path, 'w') as new_file: new_file.write(content)
 		
 		try:
