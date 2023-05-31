@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.catpy",
-				"match": "\\b(importar|si|no)\\b"
+				"match": "\\b(i_també|també|com_a|anomenat|anomenat_com|anomenat_com_a|afirma|atura|atur-et|trenca|frena|classe|continua|funció|eliminar|destruir|del_contrari_si|en_cas_contrari_si|del_contrari|excepte|Fals|fals|finalment|per|per_a|des_de|global|si|en_cas_que|importa|dins|dins_de|és|lambda|Res|no_local|no_és|o_bé|o_per_el_contrari|ignora|pasa|eleva|puja|retorna|retornar|Veritable|veritable|Cert|cert|Certament|certament|prova|intenta|mentres|amb|rendiment|imprimir|imprimeix|fuet|lallargaria_de|allargaria|allargada|concatena|enganxa|afegeix)\\b"
 			}]
 		},
 		"strings": {
