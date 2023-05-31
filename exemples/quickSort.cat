@@ -1,0 +1,12 @@
+funció quicksort(vector):
+    en_cas_que lallargaria_de(vector) <= 1:
+        retorna vector
+    pivot = vector[allargada(vector) // 2]
+    esquerra = [x per x en vector si x < pivot]
+    mig = [x per x en vector si x == pivot]
+    dreta = [x per x en vector si x > pivot]
+    retorna quicksort(esquerra) + mig + quicksort(dreta)
+
+números = [9, 2, -2, 7, 1, 6, -1, 3, 0 ,8, 5, 4]
+números_ordenats = quicksort(números)
+imprimir(números_ordenats)
